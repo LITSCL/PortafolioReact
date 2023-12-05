@@ -1,0 +1,200 @@
+header {
+  display: flex;
+  height: 132px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  border-bottom: 3px solid black;
+}
+
+header .logo {
+  display: flex;
+  flex-grow: 2;
+}
+
+header .logo span {
+  display: block;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  padding-top: 3px;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+header nav {
+  flex-grow: 1;
+}
+
+header nav ul {
+  display: flex;
+  height: 132px;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+header nav ul li a:hover {
+  color: #FA4529;
+}
+
+.activo {
+  color: #FA4529;
+}
+
+.contenido {
+  min-height: 575px;
+}
+
+.pagina h1 {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.pagina h1 strong {
+  color: #FA4529;
+}
+
+.pagina h2 {
+  color: #767676;
+  font-weight: lighter;
+}
+
+.pagina h2 a {
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: #FA4529;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.pagina h2 a:hover {
+  background-color: #348900;
+}
+
+.pagina section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.pagina section p {
+  color: #767676;
+}
+
+.pagina .contenedor-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagina .contenedor-proyectos .proyecto {
+  flex-basis: 35%;
+  flex-grow: 1;
+  margin: 30px;
+  border-bottom: 1px solid #CCC;
+}
+
+.pagina .contenedor-proyectos .proyecto img {
+  width: 100%;
+  transition: all 500ms;
+}
+
+.pagina .contenedor-proyectos .proyecto span {
+  display: block;
+  color: gray;
+  margin-top: 35px;
+}
+
+.pagina .contenedor-proyectos .proyecto h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pagina .detalle-proyecto {
+  margin-top: 20px;
+}
+
+.pagina .detalle-proyecto img {
+  display: block;
+  margin: 0px auto;
+  width: 1200px;
+}
+
+.pagina .detalle-proyecto h1 {
+  margin-top: 20px;
+}
+
+.pagina .detalle-proyecto strong {
+  font-size: 20px;
+  color: gray;
+}
+
+.pagina .detalle-proyecto p {
+  font-size: 20px;
+}
+
+.pagina .detalle-proyecto a {
+  display: block;
+  width: 110px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 250px;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+input[type="submit"] {
+  padding: 15px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+  color: white;
+  background-color: #FA4529;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+input[type="submit"]:hover {
+  background-color: #348900;
+}
+
+footer {
+  min-height: 190px;
+  line-height: 190px;
+  text-align: center;
+  background: #F5F5F5;
+  color: #444;
+  border-top: 3px solid black;
+  font-size: 14px;
+}
